@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import lightgbm as lgb
 from sklearn import metrics
 from GetData import Preprocessor_ML
 import lightgbm as lgb
