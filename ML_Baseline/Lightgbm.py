@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import lightgbm as lgb
 from sklearn import metrics
 from GetData import Preprocessor_ML
-import numpy as np
 import lightgbm as lgb
+import numpy as np
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV
 from sklearn.datasets import load_iris
