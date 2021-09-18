@@ -8,7 +8,7 @@ import catboost as cb
 if __name__ == '__main__':
 
     Preprocessor = Preprocessor_ML('../IEEE-CIS_Fraud_Detection')
-    test_mode = ['Changed','raw','DropMajorNull']
+    test_mode = ['merge_raw','raw','R-GCN','DropMajorNull']
     color_need = ['limegreen','salmon','cyan']
     plt.figure(figsize=(6, 6))
 
